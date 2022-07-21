@@ -1,0 +1,16 @@
+C:\Users\cpineda\source\repos\Azul\poo.Class\poo.Encapsulamiento\bin\Debug\net5.0\poo.Encapsulamiento.exe
+C:\Users\cpineda\source\repos\Azul\poo.Class\poo.Encapsulamiento\bin\Debug\net5.0\poo.Encapsulamiento.deps.json
+C:\Users\cpineda\source\repos\Azul\poo.Class\poo.Encapsulamiento\bin\Debug\net5.0\poo.Encapsulamiento.runtimeconfig.json
+C:\Users\cpineda\source\repos\Azul\poo.Class\poo.Encapsulamiento\bin\Debug\net5.0\poo.Encapsulamiento.runtimeconfig.dev.json
+C:\Users\cpineda\source\repos\Azul\poo.Class\poo.Encapsulamiento\bin\Debug\net5.0\poo.Encapsulamiento.dll
+C:\Users\cpineda\source\repos\Azul\poo.Class\poo.Encapsulamiento\bin\Debug\net5.0\poo.Encapsulamiento.pdb
+C:\Users\cpineda\source\repos\Azul\poo.Class\poo.Encapsulamiento\obj\Debug\net5.0\poo.Encapsulamiento.csproj.AssemblyReference.cache
+C:\Users\cpineda\source\repos\Azul\poo.Class\poo.Encapsulamiento\obj\Debug\net5.0\poo.Encapsulamiento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cpineda\source\repos\Azul\poo.Class\poo.Encapsulamiento\obj\Debug\net5.0\poo.Encapsulamiento.AssemblyInfoInputs.cache
+C:\Users\cpineda\source\repos\Azul\poo.Class\poo.Encapsulamiento\obj\Debug\net5.0\poo.Encapsulamiento.AssemblyInfo.cs
+C:\Users\cpineda\source\repos\Azul\poo.Class\poo.Encapsulamiento\obj\Debug\net5.0\poo.Encapsulamiento.csproj.CoreCompileInputs.cache
+C:\Users\cpineda\source\repos\Azul\poo.Class\poo.Encapsulamiento\obj\Debug\net5.0\poo.Encapsulamiento.dll
+C:\Users\cpineda\source\repos\Azul\poo.Class\poo.Encapsulamiento\obj\Debug\net5.0\refint\poo.Encapsulamiento.dll
+C:\Users\cpineda\source\repos\Azul\poo.Class\poo.Encapsulamiento\obj\Debug\net5.0\poo.Encapsulamiento.pdb
+C:\Users\cpineda\source\repos\Azul\poo.Class\poo.Encapsulamiento\obj\Debug\net5.0\poo.Encapsulamiento.genruntimeconfig.cache
+C:\Users\cpineda\source\repos\Azul\poo.Class\poo.Encapsulamiento\obj\Debug\net5.0\ref\poo.Encapsulamiento.dll
