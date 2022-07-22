@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "poo.Encapsulamiento", "poo.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "poo.Metodos", "poo.Metodos\poo.Metodos.csproj", "{A6B9A68C-B556-43BC-B2BC-2EECBCD478A9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poo.AddVar", "poo.AddVar\poo.AddVar.csproj", "{35D85121-6660-4A83-83DF-1521DD0D30BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "poo.AddVar", "poo.AddVar\poo.AddVar.csproj", "{35D85121-6660-4A83-83DF-1521DD0D30BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poo.AddVarCar", "poo.AddVarCar\poo.AddVarCar.csproj", "{5BA460AF-9BBD-4FAD-B709-522AE0F9DE0F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{35D85121-6660-4A83-83DF-1521DD0D30BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{35D85121-6660-4A83-83DF-1521DD0D30BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{35D85121-6660-4A83-83DF-1521DD0D30BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BA460AF-9BBD-4FAD-B709-522AE0F9DE0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BA460AF-9BBD-4FAD-B709-522AE0F9DE0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BA460AF-9BBD-4FAD-B709-522AE0F9DE0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BA460AF-9BBD-4FAD-B709-522AE0F9DE0F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
