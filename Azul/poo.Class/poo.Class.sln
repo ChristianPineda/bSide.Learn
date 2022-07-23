@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "poo.Metodos", "poo.Metodos\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "poo.AddVar", "poo.AddVar\poo.AddVar.csproj", "{35D85121-6660-4A83-83DF-1521DD0D30BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poo.AddVarCar", "poo.AddVarCar\poo.AddVarCar.csproj", "{5BA460AF-9BBD-4FAD-B709-522AE0F9DE0F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "poo.AddVarCar", "poo.AddVarCar\poo.AddVarCar.csproj", "{5BA460AF-9BBD-4FAD-B709-522AE0F9DE0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poo.Constructores", "poo.Constructores\poo.Constructores.csproj", "{273F9AD9-B85C-447F-A202-7B2E2A13B958}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{5BA460AF-9BBD-4FAD-B709-522AE0F9DE0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5BA460AF-9BBD-4FAD-B709-522AE0F9DE0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5BA460AF-9BBD-4FAD-B709-522AE0F9DE0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{273F9AD9-B85C-447F-A202-7B2E2A13B958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{273F9AD9-B85C-447F-A202-7B2E2A13B958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{273F9AD9-B85C-447F-A202-7B2E2A13B958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{273F9AD9-B85C-447F-A202-7B2E2A13B958}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,29 +10,29 @@ namespace poo.AddVarCar
             
             if(carro.Arrancar("Ford"))
             {
-                Console.WriteLine("El carro " +carro.marca + " arrancó");
+                Console.WriteLine("El carro " +carro.Marca + " arrancó");
             }
             else
             {
-                Console.WriteLine("El carro " + carro.marca + " no arrancó");
+                Console.WriteLine("El carro " + carro.Marca + " no arrancó");
             }
 
             if (carro.Acelerar())
             {
-                Console.WriteLine("El carro " + carro.marca + " aceleró");
+                Console.WriteLine("El carro " + carro.Marca + " aceleró");
             }
             else
             {
-                Console.WriteLine("El carro " + carro.marca + " no aceleró");
+                Console.WriteLine("El carro " + carro.Marca + " no aceleró");
             }
 
             if (carro.Frenar())
             {
-                Console.WriteLine("El carro " + carro.marca + " frenó");
+                Console.WriteLine("El carro " + carro.Marca + " frenó");
             }
             else
             {
-                Console.WriteLine("El carro " + carro.marca + " no frenó");
+                Console.WriteLine("El carro " + carro.Marca + " no frenó");
             }
             Console.ReadKey();
         }
@@ -40,18 +40,18 @@ namespace poo.AddVarCar
 
     class Carro
     {
-        public String marca;
-        public bool aceleracion = false;
-        public bool arranque = false;
-        public bool freno = false;
+        public String Marca;
+        public bool Aceleracion = false;
+        public bool Arranque = false;
+        public bool Freno = false;
 
         public bool Arrancar(string marca)
         {
-            this.marca = marca;
+            this.Marca = marca;
 
-            if (!arranque && !aceleracion && !freno)
+            if (!Arranque && !Aceleracion && !Freno)
             {
-                this.arranque = true;
+                this.Arranque = true;
                 return true;
             }
 
@@ -63,9 +63,9 @@ namespace poo.AddVarCar
 
         public bool Acelerar()
         {
-            if (arranque && !aceleracion && !freno)
+            if (Arranque && !Aceleracion && !Freno)
             {
-                this.aceleracion = true;
+                this.Aceleracion = true;
                 return true;
             }
 
@@ -77,9 +77,9 @@ namespace poo.AddVarCar
 
         public bool Frenar()
         {
-            if (arranque && aceleracion && !freno)
+            if (Arranque && Aceleracion && !Freno)
             {
-                this.freno = true;
+                this.Freno = true;
                 return true;
             }
             else
