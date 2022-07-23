@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poo.Constructores", "poo.Co
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poo.ConstructoresBus", "poo.ConstructoresBus\poo.ConstructoresBus.csproj", "{C2DC055B-CEF6-4211-AD64-3306165CD960}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poo.ConstructoresBank", "poo.ConstructoresBank\poo.ConstructoresBank.csproj", "{EA4BCD02-D5B4-457A-9BAF-814CD555B472}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{C2DC055B-CEF6-4211-AD64-3306165CD960}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2DC055B-CEF6-4211-AD64-3306165CD960}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2DC055B-CEF6-4211-AD64-3306165CD960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA4BCD02-D5B4-457A-9BAF-814CD555B472}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA4BCD02-D5B4-457A-9BAF-814CD555B472}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA4BCD02-D5B4-457A-9BAF-814CD555B472}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA4BCD02-D5B4-457A-9BAF-814CD555B472}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
