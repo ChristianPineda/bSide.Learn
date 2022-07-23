@@ -1,0 +1,16 @@
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Heredity\obj\Debug\net5.0\poo.Heredity.csproj.AssemblyReference.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Heredity\obj\Debug\net5.0\poo.Heredity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Heredity\obj\Debug\net5.0\poo.Heredity.AssemblyInfoInputs.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Heredity\obj\Debug\net5.0\poo.Heredity.AssemblyInfo.cs
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Heredity\obj\Debug\net5.0\poo.Heredity.csproj.CoreCompileInputs.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Heredity\bin\Debug\net5.0\poo.Heredity.exe
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Heredity\bin\Debug\net5.0\poo.Heredity.deps.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Heredity\bin\Debug\net5.0\poo.Heredity.runtimeconfig.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Heredity\bin\Debug\net5.0\poo.Heredity.runtimeconfig.dev.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Heredity\bin\Debug\net5.0\poo.Heredity.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Heredity\bin\Debug\net5.0\poo.Heredity.pdb
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Heredity\obj\Debug\net5.0\poo.Heredity.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Heredity\obj\Debug\net5.0\refint\poo.Heredity.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Heredity\obj\Debug\net5.0\poo.Heredity.pdb
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Heredity\obj\Debug\net5.0\poo.Heredity.genruntimeconfig.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Heredity\obj\Debug\net5.0\ref\poo.Heredity.dll
