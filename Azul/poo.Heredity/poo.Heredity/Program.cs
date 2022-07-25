@@ -51,7 +51,7 @@ namespace poo.Heredity
 
             public void PrintMarca()
             {
-                Console.WriteLine("La marca es: " + this.marca);
+                Console.WriteLine("La marca es: " + this.marca );
             }
         }
 
