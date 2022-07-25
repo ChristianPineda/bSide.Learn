@@ -8,24 +8,19 @@
     "net5.0": []
   },
   "packageFolders": {
-    "C:\\Users\\cpineda\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\robot\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\cpineda\\source\\repos\\Azul\\poo.Class\\poo.Metodos\\poo.Metodos.csproj",
+      "projectUniqueName": "C:\\Users\\robot\\source\\repos\\bSide.Learn\\Azul\\poo.Class\\poo.Metodos\\poo.Metodos.csproj",
       "projectName": "poo.Metodos",
-      "projectPath": "C:\\Users\\cpineda\\source\\repos\\Azul\\poo.Class\\poo.Metodos\\poo.Metodos.csproj",
-      "packagesPath": "C:\\Users\\cpineda\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\cpineda\\source\\repos\\Azul\\poo.Class\\poo.Metodos\\obj\\",
+      "projectPath": "C:\\Users\\robot\\source\\repos\\bSide.Learn\\Azul\\poo.Class\\poo.Metodos\\poo.Metodos.csproj",
+      "packagesPath": "C:\\Users\\robot\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\robot\\source\\repos\\bSide.Learn\\Azul\\poo.Class\\poo.Metodos\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\cpineda\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\robot\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -33,7 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

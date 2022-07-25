@@ -1,0 +1,16 @@
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Metodos\bin\Debug\net5.0\poo.Metodos.exe
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Metodos\bin\Debug\net5.0\poo.Metodos.deps.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Metodos\bin\Debug\net5.0\poo.Metodos.runtimeconfig.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Metodos\bin\Debug\net5.0\poo.Metodos.runtimeconfig.dev.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Metodos\bin\Debug\net5.0\poo.Metodos.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Metodos\bin\Debug\net5.0\poo.Metodos.pdb
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Metodos\obj\Debug\net5.0\poo.Metodos.csproj.AssemblyReference.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Metodos\obj\Debug\net5.0\poo.Metodos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Metodos\obj\Debug\net5.0\poo.Metodos.AssemblyInfoInputs.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Metodos\obj\Debug\net5.0\poo.Metodos.AssemblyInfo.cs
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Metodos\obj\Debug\net5.0\poo.Metodos.csproj.CoreCompileInputs.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Metodos\obj\Debug\net5.0\poo.Metodos.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Metodos\obj\Debug\net5.0\refint\poo.Metodos.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Metodos\obj\Debug\net5.0\poo.Metodos.pdb
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Metodos\obj\Debug\net5.0\poo.Metodos.genruntimeconfig.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Metodos\obj\Debug\net5.0\ref\poo.Metodos.dll

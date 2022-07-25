@@ -1,0 +1,16 @@
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Constructores\bin\Debug\net5.0\poo.Constructores.exe
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Constructores\bin\Debug\net5.0\poo.Constructores.deps.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Constructores\bin\Debug\net5.0\poo.Constructores.runtimeconfig.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Constructores\bin\Debug\net5.0\poo.Constructores.runtimeconfig.dev.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Constructores\bin\Debug\net5.0\poo.Constructores.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Constructores\bin\Debug\net5.0\poo.Constructores.pdb
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Constructores\obj\Debug\net5.0\poo.Constructores.csproj.AssemblyReference.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Constructores\obj\Debug\net5.0\poo.Constructores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Constructores\obj\Debug\net5.0\poo.Constructores.AssemblyInfoInputs.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Constructores\obj\Debug\net5.0\poo.Constructores.AssemblyInfo.cs
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Constructores\obj\Debug\net5.0\poo.Constructores.csproj.CoreCompileInputs.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Constructores\obj\Debug\net5.0\poo.Constructores.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Constructores\obj\Debug\net5.0\refint\poo.Constructores.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Constructores\obj\Debug\net5.0\poo.Constructores.pdb
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Constructores\obj\Debug\net5.0\poo.Constructores.genruntimeconfig.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.Constructores\obj\Debug\net5.0\ref\poo.Constructores.dll

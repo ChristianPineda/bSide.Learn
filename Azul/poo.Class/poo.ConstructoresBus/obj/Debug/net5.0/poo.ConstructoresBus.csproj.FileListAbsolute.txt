@@ -1,0 +1,16 @@
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBus\bin\Debug\net5.0\poo.ConstructoresBus.exe
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBus\bin\Debug\net5.0\poo.ConstructoresBus.deps.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBus\bin\Debug\net5.0\poo.ConstructoresBus.runtimeconfig.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBus\bin\Debug\net5.0\poo.ConstructoresBus.runtimeconfig.dev.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBus\bin\Debug\net5.0\poo.ConstructoresBus.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBus\bin\Debug\net5.0\poo.ConstructoresBus.pdb
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBus\obj\Debug\net5.0\poo.ConstructoresBus.csproj.AssemblyReference.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBus\obj\Debug\net5.0\poo.ConstructoresBus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBus\obj\Debug\net5.0\poo.ConstructoresBus.AssemblyInfoInputs.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBus\obj\Debug\net5.0\poo.ConstructoresBus.AssemblyInfo.cs
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBus\obj\Debug\net5.0\poo.ConstructoresBus.csproj.CoreCompileInputs.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBus\obj\Debug\net5.0\poo.ConstructoresBus.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBus\obj\Debug\net5.0\refint\poo.ConstructoresBus.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBus\obj\Debug\net5.0\poo.ConstructoresBus.pdb
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBus\obj\Debug\net5.0\poo.ConstructoresBus.genruntimeconfig.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBus\obj\Debug\net5.0\ref\poo.ConstructoresBus.dll

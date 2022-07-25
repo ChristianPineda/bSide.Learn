@@ -1,0 +1,16 @@
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBank\bin\Debug\net5.0\poo.ConstructoresBank.exe
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBank\bin\Debug\net5.0\poo.ConstructoresBank.deps.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBank\bin\Debug\net5.0\poo.ConstructoresBank.runtimeconfig.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBank\bin\Debug\net5.0\poo.ConstructoresBank.runtimeconfig.dev.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBank\bin\Debug\net5.0\poo.ConstructoresBank.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBank\bin\Debug\net5.0\poo.ConstructoresBank.pdb
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBank\obj\Debug\net5.0\poo.ConstructoresBank.csproj.AssemblyReference.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBank\obj\Debug\net5.0\poo.ConstructoresBank.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBank\obj\Debug\net5.0\poo.ConstructoresBank.AssemblyInfoInputs.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBank\obj\Debug\net5.0\poo.ConstructoresBank.AssemblyInfo.cs
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBank\obj\Debug\net5.0\poo.ConstructoresBank.csproj.CoreCompileInputs.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBank\obj\Debug\net5.0\poo.ConstructoresBank.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBank\obj\Debug\net5.0\refint\poo.ConstructoresBank.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBank\obj\Debug\net5.0\poo.ConstructoresBank.pdb
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBank\obj\Debug\net5.0\poo.ConstructoresBank.genruntimeconfig.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.ConstructoresBank\obj\Debug\net5.0\ref\poo.ConstructoresBank.dll

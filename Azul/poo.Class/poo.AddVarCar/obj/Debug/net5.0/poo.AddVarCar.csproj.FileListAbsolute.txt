@@ -1,0 +1,16 @@
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.AddVarCar\bin\Debug\net5.0\poo.AddVarCar.exe
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.AddVarCar\bin\Debug\net5.0\poo.AddVarCar.deps.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.AddVarCar\bin\Debug\net5.0\poo.AddVarCar.runtimeconfig.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.AddVarCar\bin\Debug\net5.0\poo.AddVarCar.runtimeconfig.dev.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.AddVarCar\bin\Debug\net5.0\poo.AddVarCar.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.AddVarCar\bin\Debug\net5.0\poo.AddVarCar.pdb
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.AddVarCar\obj\Debug\net5.0\poo.AddVarCar.csproj.AssemblyReference.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.AddVarCar\obj\Debug\net5.0\poo.AddVarCar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.AddVarCar\obj\Debug\net5.0\poo.AddVarCar.AssemblyInfoInputs.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.AddVarCar\obj\Debug\net5.0\poo.AddVarCar.AssemblyInfo.cs
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.AddVarCar\obj\Debug\net5.0\poo.AddVarCar.csproj.CoreCompileInputs.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.AddVarCar\obj\Debug\net5.0\poo.AddVarCar.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.AddVarCar\obj\Debug\net5.0\refint\poo.AddVarCar.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.AddVarCar\obj\Debug\net5.0\poo.AddVarCar.pdb
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.AddVarCar\obj\Debug\net5.0\poo.AddVarCar.genruntimeconfig.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Class\poo.AddVarCar\obj\Debug\net5.0\ref\poo.AddVarCar.dll
