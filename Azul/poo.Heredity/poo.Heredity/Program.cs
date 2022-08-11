@@ -62,7 +62,6 @@ namespace poo.Heredity
             {
                 
             }
-
             public void AbrirPuertas()
             {
                 Console.WriteLine("Abrió las puertas");
