@@ -1,6 +1,10 @@
 .vs/
 .idea/
-Azul/poo.Heredity/.idea/
+
 Azul/poo.Class/.idea/
-obj/
-bin/
+Azul/poo.Class/.vs/
+
+Azul/poo.Heredity/.idea/
+Azul/poo.Heredity/.vs/
+
+Azul/poo.Heredity/poo.Heredity/
