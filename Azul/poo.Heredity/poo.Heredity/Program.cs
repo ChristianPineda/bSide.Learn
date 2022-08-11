@@ -4,7 +4,7 @@ namespace poo.Heredity
 {
     internal class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
             carro carro = new carro("Ford"); //Heredan todos, los métodos de la clase padre (o superclase)
             carro.Arrancar();
@@ -32,7 +32,8 @@ namespace poo.Heredity
             string marca;
             public vehiculo(string marca) //Si requerimos algo en la superclase, lo requieren también los heredados
             {
-                
+                this.marca = marca;
+                Console.WriteLine("La marca es "+marca);
             }
             public void Arrancar()
             {
