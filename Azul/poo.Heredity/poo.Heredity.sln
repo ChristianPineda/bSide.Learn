@@ -5,6 +5,8 @@ VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poo.Heredity", "poo.Heredity\poo.Heredity.csproj", "{B0E0CD37-E376-4BAB-BED4-01BA5A0C2E91}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poo.Base", "poo.Base\poo.Base.csproj", "{F03C300E-EFD1-4CD8-95B5-F1CDEF6A5F69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B0E0CD37-E376-4BAB-BED4-01BA5A0C2E91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0E0CD37-E376-4BAB-BED4-01BA5A0C2E91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0E0CD37-E376-4BAB-BED4-01BA5A0C2E91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F03C300E-EFD1-4CD8-95B5-F1CDEF6A5F69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F03C300E-EFD1-4CD8-95B5-F1CDEF6A5F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F03C300E-EFD1-4CD8-95B5-F1CDEF6A5F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F03C300E-EFD1-4CD8-95B5-F1CDEF6A5F69}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
