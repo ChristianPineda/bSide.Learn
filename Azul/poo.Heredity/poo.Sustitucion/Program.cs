@@ -20,7 +20,7 @@ namespace poo.Base
             //Un Conserje siempre es un empleado, pero un empleado no siempre es un conserje, puede cambiar
             Empleado empleado = new Conserje("Pedro", "Molina", 3);
 
-            Conserje empleado2 = new Empleado("Noemi", "Soto", 2); //Esto no es posible
+            //Conserje empleado2 = new Empleado("Noemi", "Soto", 2); Esto no es posible
         }
     }
 
