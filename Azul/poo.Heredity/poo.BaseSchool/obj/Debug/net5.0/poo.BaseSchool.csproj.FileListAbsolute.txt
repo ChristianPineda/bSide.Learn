@@ -1,0 +1,16 @@
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.BaseSchool\bin\Debug\net5.0\poo.BaseSchool.exe
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.BaseSchool\bin\Debug\net5.0\poo.BaseSchool.deps.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.BaseSchool\bin\Debug\net5.0\poo.BaseSchool.runtimeconfig.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.BaseSchool\bin\Debug\net5.0\poo.BaseSchool.runtimeconfig.dev.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.BaseSchool\bin\Debug\net5.0\poo.BaseSchool.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.BaseSchool\bin\Debug\net5.0\poo.BaseSchool.pdb
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.BaseSchool\obj\Debug\net5.0\poo.BaseSchool.csproj.AssemblyReference.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.BaseSchool\obj\Debug\net5.0\poo.BaseSchool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.BaseSchool\obj\Debug\net5.0\poo.BaseSchool.AssemblyInfoInputs.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.BaseSchool\obj\Debug\net5.0\poo.BaseSchool.AssemblyInfo.cs
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.BaseSchool\obj\Debug\net5.0\poo.BaseSchool.csproj.CoreCompileInputs.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.BaseSchool\obj\Debug\net5.0\poo.BaseSchool.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.BaseSchool\obj\Debug\net5.0\refint\poo.BaseSchool.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.BaseSchool\obj\Debug\net5.0\poo.BaseSchool.pdb
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.BaseSchool\obj\Debug\net5.0\poo.BaseSchool.genruntimeconfig.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.BaseSchool\obj\Debug\net5.0\ref\poo.BaseSchool.dll

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poo.Heredity", "poo.Heredit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poo.Base", "poo.Base\poo.Base.csproj", "{F03C300E-EFD1-4CD8-95B5-F1CDEF6A5F69}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poo.BaseSchool", "poo.BaseSchool\poo.BaseSchool.csproj", "{99DF5251-4019-4B1E-8C85-C8A1C9D7FD67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F03C300E-EFD1-4CD8-95B5-F1CDEF6A5F69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F03C300E-EFD1-4CD8-95B5-F1CDEF6A5F69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F03C300E-EFD1-4CD8-95B5-F1CDEF6A5F69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99DF5251-4019-4B1E-8C85-C8A1C9D7FD67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99DF5251-4019-4B1E-8C85-C8A1C9D7FD67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99DF5251-4019-4B1E-8C85-C8A1C9D7FD67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99DF5251-4019-4B1E-8C85-C8A1C9D7FD67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
