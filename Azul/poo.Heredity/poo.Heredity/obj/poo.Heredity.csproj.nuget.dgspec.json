@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\robot\\source\\repos\\bSide.Learn\\Azul\\poo.Heredity\\poo.Heredity\\poo.Heredity.csproj": {}
+    "C:\\Users\\cpineda\\source\\repos\\bSide.Learn\\Azul\\poo.Heredity\\poo.Heredity\\poo.Heredity.csproj": {}
   },
   "projects": {
-    "C:\\Users\\robot\\source\\repos\\bSide.Learn\\Azul\\poo.Heredity\\poo.Heredity\\poo.Heredity.csproj": {
+    "C:\\Users\\cpineda\\source\\repos\\bSide.Learn\\Azul\\poo.Heredity\\poo.Heredity\\poo.Heredity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\robot\\source\\repos\\bSide.Learn\\Azul\\poo.Heredity\\poo.Heredity\\poo.Heredity.csproj",
+        "projectUniqueName": "C:\\Users\\cpineda\\source\\repos\\bSide.Learn\\Azul\\poo.Heredity\\poo.Heredity\\poo.Heredity.csproj",
         "projectName": "poo.Heredity",
-        "projectPath": "C:\\Users\\robot\\source\\repos\\bSide.Learn\\Azul\\poo.Heredity\\poo.Heredity\\poo.Heredity.csproj",
-        "packagesPath": "C:\\Users\\robot\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\robot\\source\\repos\\bSide.Learn\\Azul\\poo.Heredity\\poo.Heredity\\obj\\",
+        "projectPath": "C:\\Users\\cpineda\\source\\repos\\bSide.Learn\\Azul\\poo.Heredity\\poo.Heredity\\poo.Heredity.csproj",
+        "packagesPath": "C:\\Users\\cpineda\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cpineda\\source\\repos\\bSide.Learn\\Azul\\poo.Heredity\\poo.Heredity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\robot\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cpineda\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
