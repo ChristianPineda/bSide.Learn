@@ -1,12 +1,17 @@
 ﻿using System;
+using poo.Recipes.Interfaces;
 
 namespace poo.Recipes
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            Console.WriteLine("Hello World!");
+            pollo pollo = new pollo();
+            IRecetas recetas = pollo;
+            ICalentar calentar = pollo;
+            calentar.LimpiarUtensilios();
+            recetas.LimpiarIngredientes();
         }
     }
 }
