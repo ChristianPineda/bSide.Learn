@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poo.Interfaces", "poo.Inter
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poo.Recipes", "poo.Recipes\poo.Recipes.csproj", "{AD2296DF-A393-4A49-9B22-51FDE7BEA5BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "poo.Messages", "poo.Messages\poo.Messages.csproj", "{46F455F8-61F3-40E2-A087-87F81BDB4E75}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{AD2296DF-A393-4A49-9B22-51FDE7BEA5BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AD2296DF-A393-4A49-9B22-51FDE7BEA5BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AD2296DF-A393-4A49-9B22-51FDE7BEA5BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46F455F8-61F3-40E2-A087-87F81BDB4E75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46F455F8-61F3-40E2-A087-87F81BDB4E75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46F455F8-61F3-40E2-A087-87F81BDB4E75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46F455F8-61F3-40E2-A087-87F81BDB4E75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

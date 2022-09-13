@@ -3,7 +3,7 @@ using poo.Recipes.Interfaces;
 
 namespace poo.Recipes
 {
-    public class pollo:Recetas,IRecetas,ICalentar, ICalentar
+    public class pollo:Recetas,IRecetas, ICalentar
     {
         public void CocinarPollo()
         {

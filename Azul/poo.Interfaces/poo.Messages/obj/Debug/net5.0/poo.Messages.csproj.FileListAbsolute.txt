@@ -1,0 +1,16 @@
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Interfaces\poo.Messages\bin\Debug\net5.0\poo.Messages.exe
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Interfaces\poo.Messages\bin\Debug\net5.0\poo.Messages.deps.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Interfaces\poo.Messages\bin\Debug\net5.0\poo.Messages.runtimeconfig.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Interfaces\poo.Messages\bin\Debug\net5.0\poo.Messages.runtimeconfig.dev.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Interfaces\poo.Messages\bin\Debug\net5.0\poo.Messages.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Interfaces\poo.Messages\bin\Debug\net5.0\ref\poo.Messages.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Interfaces\poo.Messages\bin\Debug\net5.0\poo.Messages.pdb
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Interfaces\poo.Messages\obj\Debug\net5.0\poo.Messages.csproj.AssemblyReference.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Interfaces\poo.Messages\obj\Debug\net5.0\poo.Messages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Interfaces\poo.Messages\obj\Debug\net5.0\poo.Messages.AssemblyInfoInputs.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Interfaces\poo.Messages\obj\Debug\net5.0\poo.Messages.AssemblyInfo.cs
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Interfaces\poo.Messages\obj\Debug\net5.0\poo.Messages.csproj.CoreCompileInputs.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Interfaces\poo.Messages\obj\Debug\net5.0\poo.Messages.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Interfaces\poo.Messages\obj\Debug\net5.0\ref\poo.Messages.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Interfaces\poo.Messages\obj\Debug\net5.0\poo.Messages.pdb
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Interfaces\poo.Messages\obj\Debug\net5.0\poo.Messages.genruntimeconfig.cache
