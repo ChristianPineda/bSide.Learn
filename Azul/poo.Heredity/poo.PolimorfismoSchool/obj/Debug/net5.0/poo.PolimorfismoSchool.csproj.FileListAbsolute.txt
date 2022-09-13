@@ -1,0 +1,16 @@
+C:\Users\cpineda\source\repos\bSide.Learn\Azul\poo.Heredity\poo.PolimorfismoSchool\bin\Debug\net5.0\poo.PolimorfismoSchool.exe
+C:\Users\cpineda\source\repos\bSide.Learn\Azul\poo.Heredity\poo.PolimorfismoSchool\bin\Debug\net5.0\poo.PolimorfismoSchool.deps.json
+C:\Users\cpineda\source\repos\bSide.Learn\Azul\poo.Heredity\poo.PolimorfismoSchool\bin\Debug\net5.0\poo.PolimorfismoSchool.runtimeconfig.json
+C:\Users\cpineda\source\repos\bSide.Learn\Azul\poo.Heredity\poo.PolimorfismoSchool\bin\Debug\net5.0\poo.PolimorfismoSchool.runtimeconfig.dev.json
+C:\Users\cpineda\source\repos\bSide.Learn\Azul\poo.Heredity\poo.PolimorfismoSchool\bin\Debug\net5.0\poo.PolimorfismoSchool.dll
+C:\Users\cpineda\source\repos\bSide.Learn\Azul\poo.Heredity\poo.PolimorfismoSchool\bin\Debug\net5.0\poo.PolimorfismoSchool.pdb
+C:\Users\cpineda\source\repos\bSide.Learn\Azul\poo.Heredity\poo.PolimorfismoSchool\obj\Debug\net5.0\poo.PolimorfismoSchool.csproj.AssemblyReference.cache
+C:\Users\cpineda\source\repos\bSide.Learn\Azul\poo.Heredity\poo.PolimorfismoSchool\obj\Debug\net5.0\poo.PolimorfismoSchool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cpineda\source\repos\bSide.Learn\Azul\poo.Heredity\poo.PolimorfismoSchool\obj\Debug\net5.0\poo.PolimorfismoSchool.AssemblyInfoInputs.cache
+C:\Users\cpineda\source\repos\bSide.Learn\Azul\poo.Heredity\poo.PolimorfismoSchool\obj\Debug\net5.0\poo.PolimorfismoSchool.AssemblyInfo.cs
+C:\Users\cpineda\source\repos\bSide.Learn\Azul\poo.Heredity\poo.PolimorfismoSchool\obj\Debug\net5.0\poo.PolimorfismoSchool.csproj.CoreCompileInputs.cache
+C:\Users\cpineda\source\repos\bSide.Learn\Azul\poo.Heredity\poo.PolimorfismoSchool\obj\Debug\net5.0\poo.PolimorfismoSchool.dll
+C:\Users\cpineda\source\repos\bSide.Learn\Azul\poo.Heredity\poo.PolimorfismoSchool\obj\Debug\net5.0\refint\poo.PolimorfismoSchool.dll
+C:\Users\cpineda\source\repos\bSide.Learn\Azul\poo.Heredity\poo.PolimorfismoSchool\obj\Debug\net5.0\poo.PolimorfismoSchool.pdb
+C:\Users\cpineda\source\repos\bSide.Learn\Azul\poo.Heredity\poo.PolimorfismoSchool\obj\Debug\net5.0\poo.PolimorfismoSchool.genruntimeconfig.cache
+C:\Users\cpineda\source\repos\bSide.Learn\Azul\poo.Heredity\poo.PolimorfismoSchool\obj\Debug\net5.0\ref\poo.PolimorfismoSchool.dll

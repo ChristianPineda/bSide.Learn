@@ -1,0 +1,16 @@
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Polimorfismo\bin\Debug\net5.0\poo.Polimorfismo.exe
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Polimorfismo\bin\Debug\net5.0\poo.Polimorfismo.deps.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Polimorfismo\bin\Debug\net5.0\poo.Polimorfismo.runtimeconfig.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Polimorfismo\bin\Debug\net5.0\poo.Polimorfismo.runtimeconfig.dev.json
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Polimorfismo\bin\Debug\net5.0\poo.Polimorfismo.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Polimorfismo\bin\Debug\net5.0\poo.Polimorfismo.pdb
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Polimorfismo\obj\Debug\net5.0\poo.Polimorfismo.csproj.AssemblyReference.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Polimorfismo\obj\Debug\net5.0\poo.Polimorfismo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Polimorfismo\obj\Debug\net5.0\poo.Polimorfismo.AssemblyInfoInputs.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Polimorfismo\obj\Debug\net5.0\poo.Polimorfismo.AssemblyInfo.cs
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Polimorfismo\obj\Debug\net5.0\poo.Polimorfismo.csproj.CoreCompileInputs.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Polimorfismo\obj\Debug\net5.0\poo.Polimorfismo.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Polimorfismo\obj\Debug\net5.0\refint\poo.Polimorfismo.dll
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Polimorfismo\obj\Debug\net5.0\poo.Polimorfismo.pdb
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Polimorfismo\obj\Debug\net5.0\poo.Polimorfismo.genruntimeconfig.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\poo.Heredity\poo.Polimorfismo\obj\Debug\net5.0\ref\poo.Polimorfismo.dll
