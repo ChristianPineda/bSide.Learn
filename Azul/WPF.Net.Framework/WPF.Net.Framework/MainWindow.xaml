@@ -3,11 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:WPF.Net.Framework"
         mc:Ignorable="d"
         Title="Home" Height="300" Width="500">
-    <Grid>
-        <TextBlock HorizontalAlignment="Left" Margin="211,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center"><Run Text="Hello World"/><Run Language="es-mx" Text="!"/></TextBlock>
+    <Grid Background="Black">
+        <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" VerticalAlignment="Center" Background="Black" Foreground="White"><Run Text="Hello World"/><Run Language="es-mx" Text="!"/></TextBlock>
+        <Button Content="Order" HorizontalAlignment="Center" Margin="0,155,0,0" VerticalAlignment="Top" Click="Button_Click" Background="#FF64EF08"/>
 
     </Grid>
 </Window>

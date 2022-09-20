@@ -24,5 +24,15 @@ namespace WPF.Net.Framework
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Button_MouseEnter(object sender, MouseEventArgs e)
+        {
+
+        }
     }
 }
