@@ -1,0 +1,16 @@
+C:\Users\robot\source\repos\bSide.Learn\Azul\WPF.Net.Framework\WPF.Net.Framework\bin\Debug\WPF.Net.Framework.exe.config
+C:\Users\robot\source\repos\bSide.Learn\Azul\WPF.Net.Framework\WPF.Net.Framework\bin\Debug\WPF.Net.Framework.exe
+C:\Users\robot\source\repos\bSide.Learn\Azul\WPF.Net.Framework\WPF.Net.Framework\bin\Debug\WPF.Net.Framework.pdb
+C:\Users\robot\source\repos\bSide.Learn\Azul\WPF.Net.Framework\WPF.Net.Framework\obj\Debug\WPF.Net.Framework.csproj.AssemblyReference.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\WPF.Net.Framework\WPF.Net.Framework\obj\Debug\WPF.Net.Framework.csproj.SuggestedBindingRedirects.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\WPF.Net.Framework\WPF.Net.Framework\obj\Debug\MainWindow.g.cs
+C:\Users\robot\source\repos\bSide.Learn\Azul\WPF.Net.Framework\WPF.Net.Framework\obj\Debug\App.g.cs
+C:\Users\robot\source\repos\bSide.Learn\Azul\WPF.Net.Framework\WPF.Net.Framework\obj\Debug\WPF.Net.Framework_MarkupCompile.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\WPF.Net.Framework\WPF.Net.Framework\obj\Debug\WPF.Net.Framework_MarkupCompile.lref
+C:\Users\robot\source\repos\bSide.Learn\Azul\WPF.Net.Framework\WPF.Net.Framework\obj\Debug\MainWindow.baml
+C:\Users\robot\source\repos\bSide.Learn\Azul\WPF.Net.Framework\WPF.Net.Framework\obj\Debug\WPF.Net.Framework.g.resources
+C:\Users\robot\source\repos\bSide.Learn\Azul\WPF.Net.Framework\WPF.Net.Framework\obj\Debug\WPF.Net.Framework.Properties.Resources.resources
+C:\Users\robot\source\repos\bSide.Learn\Azul\WPF.Net.Framework\WPF.Net.Framework\obj\Debug\WPF.Net.Framework.csproj.GenerateResource.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\WPF.Net.Framework\WPF.Net.Framework\obj\Debug\WPF.Net.Framework.csproj.CoreCompileInputs.cache
+C:\Users\robot\source\repos\bSide.Learn\Azul\WPF.Net.Framework\WPF.Net.Framework\obj\Debug\WPF.Net.Framework.exe
+C:\Users\robot\source\repos\bSide.Learn\Azul\WPF.Net.Framework\WPF.Net.Framework\obj\Debug\WPF.Net.Framework.pdb
