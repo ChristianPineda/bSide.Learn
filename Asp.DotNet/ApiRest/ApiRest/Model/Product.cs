@@ -9,5 +9,6 @@ namespace ApiRest.Model
         public string Description { get; set; }
         public decimal Price { get; set; }
         public DateTime DateUpload { get; set; }
+        public string Sku { get; set; }
     }
 }

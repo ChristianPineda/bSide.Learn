@@ -6,6 +6,6 @@ namespace ApiRest.Model.Repo
     {
         IEnumerable<Product> GetAll(); //lista
 
-        Product GetById(int id); //por id
+        Product GetById(string code); //por sku
     }
 }

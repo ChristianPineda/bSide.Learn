@@ -9,15 +9,30 @@ namespace ApiRest.Model.Repo
         {
             new Product
             {
-                Id = 1, Name = "Martillo", Description = "Descripción 1", Price = 10, DateUpload = DateTime.Now
+                Id = 1, 
+                Name = "Martillo", 
+                Description = "Descripción 1", 
+                Price = 10, 
+                DateUpload = DateTime.Now,
+                Sku = "SKU1"
             },
             new Product
             {
-                Id = 2, Name = "Clavos", Description = "Descripción 2", Price = 20, DateUpload = DateTime.Now
+                Id = 2, 
+                Name = "Clavos", 
+                Description = "Descripción 2", 
+                Price = 20, 
+                DateUpload = DateTime.Now,
+                Sku = "SKU2"
             },
             new Product
             {
-                Id = 3, Name = "Bombilla", Description = "Descripción 3", Price = 30, DateUpload = DateTime.Now
+                Id = 3, 
+                Name = "Bombilla", 
+                Description = "Descripción 3", 
+                Price = 30, 
+                DateUpload = DateTime.Now,
+                Sku = "SKU3"
             }
         };
 
@@ -26,9 +41,9 @@ namespace ApiRest.Model.Repo
             return _products;
         }
 
-        public Product GetById(int id)
+        public Product GetById(string code)
         {
-            return _products.Find(p => p.Id == id);
+            return _products.Find(p => p.Sku == code);
         }
     }
 }
