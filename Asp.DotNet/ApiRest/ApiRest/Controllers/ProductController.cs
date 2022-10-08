@@ -1,6 +1,5 @@
 ﻿using ApiRest.Model;
 using ApiRest.Model.Repo;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
@@ -10,23 +9,24 @@ namespace ApiRest.Controllers
     [ApiController]
     public class ProductController : ControllerBase
     {
-        private readonly MemoryProduct repo;
+        private readonly IMemoryProduct _repo;
 
-        public ProductController()
+        public ProductController(IMemoryProduct r)
         {
-            repo = new MemoryProduct();
+            this._repo = r;
         }
-        
+
         [HttpGet]
         public IEnumerable<Product> GetProducts()
         {
-            var listProducts = repo.GetAll();
+            var listProducts = _repo.GetAll();
             return listProducts;
         }
+        
         [HttpGet("{id}")]
         public ActionResult<Product> GetProduct(int id)
         {
-            var product = repo.GetById(id);
+            var product = _repo.GetById(id);
             if (product == null)
             {
                 return NotFound();

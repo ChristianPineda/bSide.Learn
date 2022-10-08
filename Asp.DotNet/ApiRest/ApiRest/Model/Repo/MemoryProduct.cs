@@ -1,13 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices.ComTypes;
 
 namespace ApiRest.Model.Repo
 {
-    public class MemoryProduct
+    public class MemoryProduct: IMemoryProduct
     {
-        private readonly List<Product> products = new()
+        private readonly List<Product> _products = new()
         {
             new Product
             {
@@ -22,13 +20,15 @@ namespace ApiRest.Model.Repo
                 Id = 3, Name = "Bombilla", Description = "Descripción 3", Price = 30, DateUpload = DateTime.Now
             }
         };
-        public IEnumerable<Product> GetAll() //Devuelve todos los productos
+
+        public IEnumerable<Product> GetAll()
         {
-            return products;
+            return _products;
         }
-        public Product GetById(int id) //Devuelve un producto por su id
+
+        public Product GetById(int id)
         {
-            return products.SingleOrDefault(p => p.Id == id);
+            return _products.Find(p => p.Id == id);
         }
     }
 }
