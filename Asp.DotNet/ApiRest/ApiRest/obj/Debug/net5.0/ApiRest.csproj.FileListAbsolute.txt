@@ -26,3 +26,5 @@ C:\Users\robot\source\repos\bSide.Learn\Asp.DotNet\ApiRest\ApiRest\obj\Debug\net
 C:\Users\robot\source\repos\bSide.Learn\Asp.DotNet\ApiRest\ApiRest\obj\Debug\net5.0\ApiRest.pdb
 C:\Users\robot\source\repos\bSide.Learn\Asp.DotNet\ApiRest\ApiRest\obj\Debug\net5.0\ApiRest.genruntimeconfig.cache
 C:\Users\robot\source\repos\bSide.Learn\Asp.DotNet\ApiRest\ApiRest\obj\Debug\net5.0\ref\ApiRest.dll
+C:\Users\robot\source\repos\bSide.Learn\Asp.DotNet\ApiRest\ApiRest\bin\Debug\net5.0\xunit.abstractions.dll
+C:\Users\robot\source\repos\bSide.Learn\Asp.DotNet\ApiRest\ApiRest\bin\Debug\net5.0\xunit.core.dll

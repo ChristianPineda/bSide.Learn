@@ -7,5 +7,6 @@ namespace ApiRest.Model.Repo
         IEnumerable<Product> GetAll(); //lista
 
         Product GetById(string code); //por sku
+        void CreateProduct(Product p); //crear
     }
 }

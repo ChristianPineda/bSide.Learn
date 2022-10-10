@@ -36,6 +36,11 @@ namespace ApiRest.Model.Repo
             }
         };
 
+        public void CreateProduct(Product p)
+        {
+            _products.Add(p);
+        }
+
         public IEnumerable<Product> GetAll()
         {
             return _products;
