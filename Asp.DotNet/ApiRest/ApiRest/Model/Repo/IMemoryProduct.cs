@@ -10,5 +10,6 @@ namespace ApiRest.Model.Repo
         void CreateProduct(Product p); //crear
 
         void ModifyProduct(Product p); //modificar
+        void DeleteProduct(string code); //eliminar
     }
 }

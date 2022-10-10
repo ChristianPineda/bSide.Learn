@@ -70,5 +70,17 @@ namespace ApiRest.Controllers
             _repo.ModifyProduct(product);
             return product.TransUp();
         }
+        [HttpDelete("{code}")]
+        public ActionResult DeleteProduct(string code)
+        {
+            var product = _repo.GetById(code);
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            _repo.DeleteProduct(code);
+            return NoContent();
+        }
     }
 }

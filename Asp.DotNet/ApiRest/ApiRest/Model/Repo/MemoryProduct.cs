@@ -40,7 +40,6 @@ namespace ApiRest.Model.Repo
         {
             _products.Add(p);
         }
-
         public IEnumerable<Product> GetAll()
         {
             return _products;
@@ -55,6 +54,11 @@ namespace ApiRest.Model.Repo
         {
             int index = _products.FindIndex(exists => exists.Sku == p.Sku);
             _products [index] = p;
+        }
+        public void DeleteProduct(string code)
+        {
+            int index = _products.FindIndex(exists => exists.Sku == code);
+            _products.RemoveAt(index);
         }
     }
 }
