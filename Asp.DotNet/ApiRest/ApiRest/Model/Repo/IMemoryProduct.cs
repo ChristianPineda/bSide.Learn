@@ -8,5 +8,7 @@ namespace ApiRest.Model.Repo
 
         Product GetById(string code); //por sku
         void CreateProduct(Product p); //crear
+
+        void ModifyProduct(Product p); //modificar
     }
 }

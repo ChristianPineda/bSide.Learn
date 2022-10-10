@@ -54,5 +54,21 @@ namespace ApiRest.Controllers
             _repo.CreateProduct(product);
             return product.Trans();
         }
+
+        [HttpPut("{code}")]
+        public ActionResult<ProductUpdateDTO> UpdateProduct(ProductUpdateDTO p, string code)
+        {
+            var product = _repo.GetById(code);
+            if (product == null)
+            {
+                return NotFound();
+            }
+
+            product.Name = p.Name;
+            product.Description = p.Description;
+            product.Price = p.Price;
+            _repo.ModifyProduct(product);
+            return product.TransUp();
+        }
     }
 }

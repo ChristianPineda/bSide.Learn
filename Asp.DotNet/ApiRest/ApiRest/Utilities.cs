@@ -15,5 +15,14 @@ namespace ApiRest
                 Sku = p.Sku
             };
         }
+        public static ProductUpdateDTO TransUp(this Product p)
+        {
+            return new ProductUpdateDTO
+            {
+                Name = p.Name,
+                Description = p.Description,
+                Price = p.Price,
+            };
+        }
     }
 }
