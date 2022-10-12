@@ -1,7 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using ApiRest.Model;
 
-namespace ApiRest.Model.Repo
+namespace ApiRest.Repo
 {
     public class MemoryProduct: IMemoryProduct
     {

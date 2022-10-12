@@ -28,3 +28,9 @@ C:\Users\robot\source\repos\bSide.Learn\Asp.DotNet\ApiRest\ApiRest\obj\Debug\net
 C:\Users\robot\source\repos\bSide.Learn\Asp.DotNet\ApiRest\ApiRest\obj\Debug\net5.0\ref\ApiRest.dll
 C:\Users\robot\source\repos\bSide.Learn\Asp.DotNet\ApiRest\ApiRest\bin\Debug\net5.0\xunit.abstractions.dll
 C:\Users\robot\source\repos\bSide.Learn\Asp.DotNet\ApiRest\ApiRest\bin\Debug\net5.0\xunit.core.dll
+C:\Users\robot\source\repos\bSide.Learn\Asp.DotNet\ApiRest\ApiRest\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\robot\source\repos\bSide.Learn\Asp.DotNet\ApiRest\ApiRest\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\robot\source\repos\bSide.Learn\Asp.DotNet\ApiRest\ApiRest\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\robot\source\repos\bSide.Learn\Asp.DotNet\ApiRest\ApiRest\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\robot\source\repos\bSide.Learn\Asp.DotNet\ApiRest\ApiRest\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\robot\source\repos\bSide.Learn\Asp.DotNet\ApiRest\ApiRest\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
