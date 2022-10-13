@@ -1,16 +1,10 @@
+using ApiRest.Repo;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace ApiRest
 {
@@ -26,6 +20,11 @@ namespace ApiRest
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            var connectionSql = new DataAccess(Configuration.GetConnectionString("SQL"));
+            services.AddSingleton(connectionSql);
+            
+            services.AddSingleton<IMemoryProduct, SqlProducts>(); //Dependency Injection Db
+            // services.AddSingleton<IMemoryProduct, MemoryProduct>(); //Dependency Injection Linq
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
