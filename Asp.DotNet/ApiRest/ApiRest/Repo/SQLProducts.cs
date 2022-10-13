@@ -57,7 +57,7 @@ namespace ApiRest.Repo
             SqlCommand comm = null;
 
             List<Product> products = new List<Product>(); //Initialize the list
-            Product p = null;
+            Product p;
             try
             {
                 sqlConnection.Open();
@@ -135,7 +135,31 @@ namespace ApiRest.Repo
 
         public void ModifyProduct(Product p)
         {
-            throw new NotImplementedException();
+            SqlConnection sqlConnection = GetConnection();
+            SqlCommand comm = null;
+            try
+            {
+                sqlConnection.Open();
+                comm = sqlConnection.CreateCommand();
+                comm.CommandText = "dbo.ModifyProducts";
+                comm.CommandType = CommandType.StoredProcedure;
+
+                comm.Parameters.Add("@name", SqlDbType.VarChar, 50).Value = p.Name;
+                comm.Parameters.Add("@description", SqlDbType.VarChar, 200).Value = p.Description;
+                comm.Parameters.Add("@price", SqlDbType.Float).Value = p.Price;
+                comm.Parameters.Add("@sku", SqlDbType.VarChar, 50).Value = p.Sku;
+                comm.ExecuteNonQuery(); //No queries
+            }
+            catch (Exception e)
+            {
+                throw new Exception("Error al modificar el producto" + e);
+            }
+            finally
+            {
+                comm?.Dispose();
+                sqlConnection.Close();
+                sqlConnection.Dispose();
+            }
         }
     }
 }
