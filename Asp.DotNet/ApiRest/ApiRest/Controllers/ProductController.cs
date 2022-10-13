@@ -8,7 +8,7 @@ using ApiRest.Model;
 
 namespace ApiRest.Controllers
 {
-    [Route("products")]
+    [Route("v1/products/storage/items")]
     [ApiController]
     public class ProductController : ControllerBase
     {
