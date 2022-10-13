@@ -53,7 +53,44 @@ namespace ApiRest.Repo
 
         public IEnumerable<Product> GetAll()
         {
-            throw new NotImplementedException();
+            SqlConnection sqlConnection = GetConnection();
+            SqlCommand comm = null;
+
+            List<Product> products = new List<Product>(); //Initialize the list
+            Product p = null;
+            try
+            {
+                sqlConnection.Open();
+                comm = sqlConnection.CreateCommand();
+                comm.CommandText = "dbo.GetProducts";
+                comm.CommandType = CommandType.StoredProcedure;
+                SqlDataReader reader = comm.ExecuteReader(); //Read queries
+
+                
+                while (reader.Read())
+                {
+                    p = new Product
+                    {
+                        Name = reader["Name"].ToString(),
+                        Description = reader["Description"].ToString(),
+                        Price = (decimal)Convert.ToDouble(reader["Price"].ToString()),
+                        Sku = reader["SKU"].ToString(),
+                    };
+                    products.Add(p); //Add to list
+                }
+            }
+            catch (Exception e)
+            {
+                throw new Exception("Error al crear el producto" + e);
+            }
+            finally
+            {
+                comm?.Dispose();
+                sqlConnection.Close();
+                sqlConnection.Dispose();
+            }
+
+            return products;
         }
 
         public Product GetById(string code)
