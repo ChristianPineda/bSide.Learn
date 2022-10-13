@@ -48,7 +48,28 @@ namespace ApiRest.Repo
 
         public void DeleteProduct(string code)
         {
-            throw new NotImplementedException();
+            SqlConnection sqlConnection = GetConnection();
+            SqlCommand comm = null;
+
+            try
+            {
+                sqlConnection.Open();
+                comm = sqlConnection.CreateCommand();
+                comm.CommandText = "dbo.DeleteProducts";
+                comm.CommandType = CommandType.StoredProcedure;
+                comm.Parameters.Add("@sku", SqlDbType.VarChar, 50).Value = code;
+                comm.ExecuteNonQuery(); //No queries
+            }
+            catch (Exception e)
+            {
+                throw new Exception("Error al obtener el producto" + e);
+            }
+            finally
+            {
+                comm?.Dispose();
+                sqlConnection.Close();
+                sqlConnection.Dispose();
+            }
         }
 
         public IEnumerable<Product> GetAll()
