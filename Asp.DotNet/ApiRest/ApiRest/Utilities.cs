@@ -7,22 +7,36 @@ namespace ApiRest
     {
         public static ProductDto Trans(this Product p)
         {
-            return new ProductDto
+            try
             {
-                Name = p.Name,
-                Description = p.Description,
-                Price = p.Price,
-                Sku = p.Sku
-            };
+                return new ProductDto
+                {
+                    Name = p.Name,
+                    Description = p.Description,
+                    Price = p.Price,
+                    Sku = p.Sku
+                };
+            }
+            catch
+            {
+                return null; //Esta validación documenta para el controlador
+            }
         }
         public static ProductUpdateDTO TransUp(this Product p)
         {
-            return new ProductUpdateDTO
+            try
             {
-                Name = p.Name,
-                Description = p.Description,
-                Price = p.Price,
-            };
+                return new ProductUpdateDTO
+                {
+                    Name = p.Name,
+                    Description = p.Description,
+                    Price = p.Price,
+                };
+            }
+            catch
+            {
+                return null;
+            }
         }
     }
 }

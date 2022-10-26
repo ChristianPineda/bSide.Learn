@@ -26,6 +26,7 @@ namespace ApiRest
             services.AddSingleton<IMemoryProduct, SqlProducts>(); //Dependency Injection Db
             // services.AddSingleton<IMemoryProduct, MemoryProduct>(); //Dependency Injection Linq
 
+            //services.AddControllers(options => { options.SuppressAsyncSuffixInActionNames=false})//parara evitar problemas(?
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
