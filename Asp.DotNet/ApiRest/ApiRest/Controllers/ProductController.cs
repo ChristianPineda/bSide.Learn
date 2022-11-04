@@ -44,7 +44,7 @@ namespace ApiRest.Controllers
         {
             Product product = new Product
             {
-                //Id = _repo.GetAll().Max(x => x.Id) + 1, //No es necesario porque se genera automaticamente
+                //Id = _repo.GetAll().Max(x => x.Id) + 1, //No es necesario porque se genera automaticamente en SQL
                 Name = p.Name,
                 Description = p.Description,
                 Price = p.Price,

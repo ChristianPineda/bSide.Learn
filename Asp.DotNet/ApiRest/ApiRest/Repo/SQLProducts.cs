@@ -25,18 +25,18 @@ namespace ApiRest.Repo
             {
                 sqlConnection.Open();
                 comm = sqlConnection.CreateCommand();
-                comm.CommandText = "dbo.WriteProducts";
+                comm.CommandText = "dbo.CreateProducts";
                 comm.CommandType = CommandType.StoredProcedure;
                 
-                comm.Parameters.Add("@name", SqlDbType.VarChar, 50).Value = p.Name;
-                comm.Parameters.Add("@description", SqlDbType.VarChar, 200).Value = p.Description;
+                comm.Parameters.Add("@name", SqlDbType.VarChar, 250).Value = p.Name;
+                comm.Parameters.Add("@description", SqlDbType.VarChar, 500).Value = p.Description;
                 comm.Parameters.Add("@price", SqlDbType.Float).Value = p.Price;
-                comm.Parameters.Add("@sku", SqlDbType.VarChar, 50).Value = p.Sku;
+                comm.Parameters.Add("@sku", SqlDbType.VarChar, 250).Value = p.Sku;
                 comm.ExecuteNonQuery(); //No queries
             }
             catch (Exception e)
             {
-                throw new Exception("Error al crear el producto" + e);
+                throw new Exception("Error al crear el producto " + e.ToString());
             }
             finally
             {
@@ -77,7 +77,7 @@ namespace ApiRest.Repo
             SqlConnection sqlConnection = GetConnection();
             SqlCommand comm = null;
 
-            List<Product> products = new List<Product>(); //Initialize the list
+            List<Product> products = new (); //Initialize the list
             Product p;
             try
             {
