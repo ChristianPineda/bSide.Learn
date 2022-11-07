@@ -126,7 +126,7 @@ namespace ApiRest.Repo
                 comm = sqlConnection.CreateCommand();
                 comm.CommandText = "dbo.GetProducts";
                 comm.CommandType = CommandType.StoredProcedure;
-                comm.Parameters.Add("@sku", SqlDbType.VarChar, 50).Value = code;
+                comm.Parameters.Add("@sku", SqlDbType.VarChar, 500).Value = code;
                 SqlDataReader reader = comm.ExecuteReader(); //Read queries
                 
                 if (reader.Read())
@@ -142,7 +142,7 @@ namespace ApiRest.Repo
             }
             catch (Exception e)
             {
-                throw new Exception("Error al crear el producto" + e);
+                throw new Exception("Error al obtener el producto " + e);
             }
             finally
             {
