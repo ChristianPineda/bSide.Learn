@@ -42,7 +42,7 @@ namespace ApiRest.Controllers
         [HttpPost]
         public ActionResult<ProductDto> CreateProduct(ProductDto p)
         {
-            Product product = new Product
+            Product product = new()
             {
                 //Id = _repo.GetAll().Max(x => x.Id) + 1, //No es necesario porque se genera automaticamente en SQL
                 Name = p.Name,
@@ -67,7 +67,9 @@ namespace ApiRest.Controllers
             product.Name = p.Name;
             product.Description = p.Description;
             product.Price = p.Price;
-            _repo.ModifyProduct(product);
+
+            _repo.UpdateProduct(product);
+            
             return product.TransUp();
         }
         [HttpDelete("{code}")]

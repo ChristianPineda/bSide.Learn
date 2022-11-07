@@ -162,7 +162,7 @@ namespace ApiRest.Repo
             {
                 sqlConnection.Open();
                 comm = sqlConnection.CreateCommand();
-                comm.CommandText = "dbo.ModifyProducts";
+                comm.CommandText = "dbo.UpdateProducts";
                 comm.CommandType = CommandType.StoredProcedure;
 
                 comm.Parameters.Add("@name", SqlDbType.VarChar, 50).Value = p.Name;

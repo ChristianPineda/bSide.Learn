@@ -51,7 +51,7 @@ namespace ApiRest.Repo
             return _products.Find(p => p.Sku == code);
         }
 
-        public void ModifyProduct(Product p)
+        public void UpdateProduct(Product p)
         {
             int index = _products.FindIndex(exists => exists.Sku == p.Sku);
             _products [index] = p;
