@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
+using NLog.Extensions.Logging;
 namespace ApiRest
 {
     public class Program
@@ -21,6 +21,9 @@ namespace ApiRest
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder.UseStartup<Startup>();
+                }).ConfigureLogging((hostingContext, logging) =>
+                {
+                    logging.AddNLog(); //Agrega el servicio de NLog
                 });
     }
 }

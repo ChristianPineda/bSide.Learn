@@ -5,15 +5,18 @@ using System.Data;
 using System.Data.SqlClient;
 using System.Threading.Tasks;
 using System.Runtime.CompilerServices;
+using Microsoft.Extensions.Logging;
 
 namespace ApiRest.Repo
 {
     public class SqlProducts : IMemoryProduct
     {
         private readonly string _connectionString;
+        private readonly ILogger<SqlProducts> log;
         public SqlProducts(DataAccess connectionString)
         {
             _connectionString = connectionString.ConnectionStringSql;
+            this.log = null;
         }
         private SqlConnection GetConnection()
         {
@@ -38,7 +41,8 @@ namespace ApiRest.Repo
             }
             catch (Exception e)
             {
-                throw new Exception("Error al crear el producto " + e.ToString());
+                log.LogError(e.ToString());
+                throw new Exception("Error al crear el producto " + e.Message);
             }
             finally
             {

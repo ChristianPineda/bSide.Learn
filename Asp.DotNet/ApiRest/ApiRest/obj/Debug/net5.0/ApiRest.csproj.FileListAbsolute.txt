@@ -70,3 +70,5 @@ C:\Users\cpineda\source\repos\bSide.Learn\Asp.DotNet\ApiRest\ApiRest\obj\Debug\n
 C:\Users\cpineda\source\repos\bSide.Learn\Asp.DotNet\ApiRest\ApiRest\obj\Debug\net5.0\ApiRest.pdb
 C:\Users\cpineda\source\repos\bSide.Learn\Asp.DotNet\ApiRest\ApiRest\obj\Debug\net5.0\ApiRest.genruntimeconfig.cache
 C:\Users\cpineda\source\repos\bSide.Learn\Asp.DotNet\ApiRest\ApiRest\obj\Debug\net5.0\ref\ApiRest.dll
+C:\Users\cpineda\source\repos\bSide.Learn\Asp.DotNet\ApiRest\ApiRest\bin\Debug\net5.0\NLog.dll
+C:\Users\cpineda\source\repos\bSide.Learn\Asp.DotNet\ApiRest\ApiRest\bin\Debug\net5.0\NLog.Extensions.Logging.dll
