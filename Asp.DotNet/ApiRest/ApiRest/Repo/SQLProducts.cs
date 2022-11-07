@@ -57,12 +57,12 @@ namespace ApiRest.Repo
                 comm = sqlConnection.CreateCommand();
                 comm.CommandText = "dbo.DeleteProducts";
                 comm.CommandType = CommandType.StoredProcedure;
-                comm.Parameters.Add("@sku", SqlDbType.VarChar, 50).Value = code;
+                comm.Parameters.Add("@sku", SqlDbType.VarChar, 500).Value = code;
                 comm.ExecuteNonQuery(); //No queries
             }
             catch (Exception e)
             {
-                throw new Exception("Error al obtener el producto" + e);
+                throw new Exception("Error al eliminar el producto" + e);
             }
             finally
             {
