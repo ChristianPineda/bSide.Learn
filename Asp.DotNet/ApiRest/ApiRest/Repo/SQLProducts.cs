@@ -3,6 +3,8 @@ using ApiRest.Model;
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Threading.Tasks;
+using System.Runtime.CompilerServices;
 
 namespace ApiRest.Repo
 {
@@ -17,7 +19,7 @@ namespace ApiRest.Repo
         {
             return new SqlConnection(_connectionString);
         }
-        public void CreateProduct(Product p)
+        public async Task CreateProduct(Product p)
         {
             SqlConnection sqlConnection = GetConnection();
             SqlCommand comm = null;
@@ -32,7 +34,7 @@ namespace ApiRest.Repo
                 comm.Parameters.Add("@description", SqlDbType.VarChar, 500).Value = p.Description;
                 comm.Parameters.Add("@price", SqlDbType.Float).Value = p.Price;
                 comm.Parameters.Add("@sku", SqlDbType.VarChar, 250).Value = p.Sku;
-                comm.ExecuteNonQuery(); //No queries
+                await comm.ExecuteNonQueryAsync(); //No queries
             }
             catch (Exception e)
             {
@@ -44,9 +46,10 @@ namespace ApiRest.Repo
                 sqlConnection.Close();
                 sqlConnection.Dispose();
             }
+            await Task.CompletedTask;
         }
 
-        public void DeleteProduct(string code)
+        public async Task DeleteProduct(string code)
         {
             SqlConnection sqlConnection = GetConnection();
             SqlCommand comm = null;
@@ -58,7 +61,7 @@ namespace ApiRest.Repo
                 comm.CommandText = "dbo.DeleteProducts";
                 comm.CommandType = CommandType.StoredProcedure;
                 comm.Parameters.Add("@sku", SqlDbType.VarChar, 500).Value = code;
-                comm.ExecuteNonQuery(); //No queries
+                await comm.ExecuteNonQueryAsync(); //No queries
             }
             catch (Exception e)
             {
@@ -70,9 +73,10 @@ namespace ApiRest.Repo
                 sqlConnection.Close();
                 sqlConnection.Dispose();
             }
+            await Task.CompletedTask;
         }
 
-        public IEnumerable<Product> GetAll()
+        public async Task<IEnumerable<Product>> GetAll()
         {
             SqlConnection sqlConnection = GetConnection();
             SqlCommand comm = null;
@@ -85,9 +89,9 @@ namespace ApiRest.Repo
                 comm = sqlConnection.CreateCommand();
                 comm.CommandText = "dbo.GetProducts";
                 comm.CommandType = CommandType.StoredProcedure;
-                SqlDataReader reader = comm.ExecuteReader(); //Read queries
+                SqlDataReader reader = await comm.ExecuteReaderAsync();
 
-                
+
                 while (reader.Read())
                 {
                     p = new Product
@@ -110,11 +114,10 @@ namespace ApiRest.Repo
                 sqlConnection.Close();
                 sqlConnection.Dispose();
             }
-
             return products;
         }
 
-        public Product GetById(string code)
+        public async Task<Product> GetById(string code)
         {
             SqlConnection sqlConnection = GetConnection();
             SqlCommand comm = null;
@@ -127,7 +130,7 @@ namespace ApiRest.Repo
                 comm.CommandText = "dbo.GetProducts";
                 comm.CommandType = CommandType.StoredProcedure;
                 comm.Parameters.Add("@sku", SqlDbType.VarChar, 500).Value = code;
-                SqlDataReader reader = comm.ExecuteReader(); //Read queries
+                SqlDataReader reader = await comm.ExecuteReaderAsync(); //Read queries
                 
                 if (reader.Read())
                 {
@@ -150,11 +153,10 @@ namespace ApiRest.Repo
                 sqlConnection.Close();
                 sqlConnection.Dispose();
             }
-
             return p;
         }
 
-        public void UpdateProduct(Product p)
+        public async Task UpdateProduct(Product p)
         {
             SqlConnection sqlConnection = GetConnection();
             SqlCommand comm = null;
@@ -169,7 +171,7 @@ namespace ApiRest.Repo
                 comm.Parameters.Add("@description", SqlDbType.VarChar, 200).Value = p.Description;
                 comm.Parameters.Add("@price", SqlDbType.Float).Value = p.Price;
                 comm.Parameters.Add("@sku", SqlDbType.VarChar, 50).Value = p.Sku;
-                comm.ExecuteNonQuery(); //No queries
+                await comm.ExecuteNonQueryAsync(); //No queries
             }
             catch (Exception e)
             {
@@ -181,6 +183,7 @@ namespace ApiRest.Repo
                 sqlConnection.Close();
                 sqlConnection.Dispose();
             }
+            await Task.CompletedTask;
         }
     }
 }

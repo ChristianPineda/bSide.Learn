@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using ApiRest.Model;
 
 namespace ApiRest.Repo
@@ -37,29 +38,32 @@ namespace ApiRest.Repo
             }
         };
 
-        public void CreateProduct(Product p)
+        public async Task CreateProduct(Product p)
         {
             _products.Add(p);
+            await Task.CompletedTask;
         }
-        public IEnumerable<Product> GetAll()
+        public async Task<IEnumerable<Product>> GetAll()
         {
-            return _products;
+            return await Task.FromResult(_products);
         }
 
-        public Product GetById(string code)
+        public async Task<Product> GetById(string code)
         {
-            return _products.Find(p => p.Sku == code);
+            return await Task.FromResult(_products.Find(p => p.Sku == code));
         }
 
-        public void UpdateProduct(Product p)
+        public async Task UpdateProduct(Product p)
         {
             int index = _products.FindIndex(exists => exists.Sku == p.Sku);
             _products [index] = p;
+            await Task.CompletedTask;
         }
-        public void DeleteProduct(string code)
+        public async Task DeleteProduct(string code)
         {
             int index = _products.FindIndex(exists => exists.Sku == code);
             _products.RemoveAt(index);
+            await Task.CompletedTask;
         }
     }
 }

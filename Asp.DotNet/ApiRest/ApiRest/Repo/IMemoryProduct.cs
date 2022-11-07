@@ -1,16 +1,17 @@
 ﻿using System.Collections.Generic;
+using System.Threading.Tasks;
 using ApiRest.Model;
 
 namespace ApiRest.Repo
 {
     public interface IMemoryProduct
     {
-        IEnumerable<Product> GetAll(); //lista
+        Task<IEnumerable<Product>> GetAll(); //lista
 
-        Product GetById(string code); //por sku
-        void CreateProduct(Product p); //crear
-
-        void UpdateProduct(Product p); //modificar
-        void DeleteProduct(string code); //eliminar
+        Task<Product> GetById(string code); //por sku
+        Task CreateProduct(Product p); //crear
+        
+        Task UpdateProduct(Product p); //modificar
+        Task DeleteProduct(string code); //eliminar
     }
 }

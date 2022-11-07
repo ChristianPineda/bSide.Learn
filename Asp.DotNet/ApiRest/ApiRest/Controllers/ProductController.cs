@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using ApiRest.DTO;
 using ApiRest.Model;
+using System.Threading.Tasks;
 
 namespace ApiRest.Controllers
 {
@@ -20,27 +21,26 @@ namespace ApiRest.Controllers
         }
 
         [HttpGet]
-        public IEnumerable<ProductDto> GetProducts()
+        public async Task<IEnumerable<ProductDto>> GetProducts()
         {
             var listProducts =
-                _repo.GetAll().Select(p => p.Trans()); //Selecciona varios elementos y usa el modelo del DTO
+               (await _repo.GetAll()).Select(p => p.Trans()); //Selecciona varios elementos y usa el modelo del DTO
             return listProducts;
         }
 
         [HttpGet("{code}")]
-        public ActionResult<ProductDto> GetProduct(string code)
+        public async Task<ActionResult<ProductDto>> GetProduct(string code)
         {
-            var product = _repo.GetById(code).Trans(); // Usa lo del DTO
+            var product = (await _repo.GetById(code)).Trans(); // Usa lo del DTO
             if (product == null)
             {
                 return NotFound();
             }
-
             return product;
         }
 
         [HttpPost]
-        public ActionResult<ProductDto> CreateProduct(ProductDto p)
+        public async Task<ActionResult<ProductDto>> CreateProduct(ProductDto p)
         {
             Product product = new()
             {
@@ -51,14 +51,14 @@ namespace ApiRest.Controllers
                 DateUpload = DateTime.Now,
                 Sku = p.Sku
             };
-            _repo.CreateProduct(product);
+            await _repo.CreateProduct(product);
             return product.Trans();
         }
 
         [HttpPut("{code}")]
-        public ActionResult<ProductUpdateDTO> UpdateProduct(ProductUpdateDTO p, string code)
+        public async Task<ActionResult<ProductUpdateDTO>> UpdateProduct(ProductUpdateDTO p, string code)
         {
-            var product = _repo.GetById(code);
+            var product = await _repo.GetById(code);
             if (product == null)
             {
                 return NotFound();
@@ -68,20 +68,20 @@ namespace ApiRest.Controllers
             product.Description = p.Description;
             product.Price = p.Price;
 
-            _repo.UpdateProduct(product);
+            await _repo.UpdateProduct(product);
             
             return product.TransUp();
         }
         [HttpDelete("{code}")]
-        public ActionResult DeleteProduct(string code)
+        public async Task<ActionResult> DeleteProduct(string code)
         {
-            var product = _repo.GetById(code);
+            var product = await _repo.GetById(code);
             if (product == null)
             {
                 return NotFound();
             }
 
-            _repo.DeleteProduct(code);
+            await _repo.DeleteProduct(code);
             return NoContent();
         }
     }
