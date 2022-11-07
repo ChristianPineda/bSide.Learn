@@ -154,7 +154,7 @@ namespace ApiRest.Repo
             return p;
         }
 
-        public void ModifyProduct(Product p)
+        public void UpdateProduct(Product p)
         {
             SqlConnection sqlConnection = GetConnection();
             SqlCommand comm = null;
