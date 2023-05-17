@@ -6,7 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-
+using NLog.Extensions.Logging; // Aventar los logs a un txt
 namespace ApiRest
 {
     public class Program
