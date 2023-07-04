@@ -4,13 +4,17 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 using System.Threading.Tasks;
+<<<<<<< HEAD
+=======
 using System.Runtime.CompilerServices;
 using Microsoft.Extensions.Logging;
+>>>>>>> 0e6be7f39ab43ff09865e85f30ef9d3970fa1793
 
 namespace ApiRest.Repo
 {
     public class SqlProducts : IMemoryProduct
     {
+        //#2
         private readonly string _connectionString;
         private readonly ILogger<SqlProducts> log;
         public SqlProducts(DataAccess connectionString)
@@ -22,6 +26,10 @@ namespace ApiRest.Repo
         {
             return new SqlConnection(_connectionString);
         }
+<<<<<<< HEAD
+        //Reemplazar los void por task, en los métodos y agregar async detrás
+=======
+>>>>>>> 0e6be7f39ab43ff09865e85f30ef9d3970fa1793
         public async Task CreateProduct(Product p)
         {
             SqlConnection sqlConnection = GetConnection();
@@ -36,8 +44,14 @@ namespace ApiRest.Repo
                 comm.Parameters.Add("@name", SqlDbType.VarChar, 250).Value = p.Name;
                 comm.Parameters.Add("@description", SqlDbType.VarChar, 500).Value = p.Description;
                 comm.Parameters.Add("@price", SqlDbType.Float).Value = p.Price;
+<<<<<<< HEAD
+                comm.Parameters.Add("@sku", SqlDbType.VarChar, 50).Value = p.Sku;
+                await comm.ExecuteNonQueryAsync(); //No queries
+                await Task.CompletedTask;
+=======
                 comm.Parameters.Add("@sku", SqlDbType.VarChar, 250).Value = p.Sku;
                 await comm.ExecuteNonQueryAsync(); //No queries
+>>>>>>> 0e6be7f39ab43ff09865e85f30ef9d3970fa1793
             }
             catch (Exception e)
             {
@@ -64,8 +78,15 @@ namespace ApiRest.Repo
                 comm = sqlConnection.CreateCommand();
                 comm.CommandText = "dbo.DeleteProducts";
                 comm.CommandType = CommandType.StoredProcedure;
+<<<<<<< HEAD
+                comm.Parameters.Add("@sku", SqlDbType.VarChar, 50).Value = code;
+                await comm.ExecuteNonQueryAsync(); //No queries, el await va en la instrucción final, el sp tiene su ENQAsync
+                //No devuelve valor al finalizar la tarea
+                await Task.CompletedTask;
+=======
                 comm.Parameters.Add("@sku", SqlDbType.VarChar, 500).Value = code;
                 await comm.ExecuteNonQueryAsync(); //No queries
+>>>>>>> 0e6be7f39ab43ff09865e85f30ef9d3970fa1793
             }
             catch (Exception e)
             {
@@ -80,7 +101,11 @@ namespace ApiRest.Repo
             await Task.CompletedTask;
         }
 
+<<<<<<< HEAD
+        public async Task<IEnumerable<Product>> GetAll() //Igual que en GetById
+=======
         public async Task<IEnumerable<Product>> GetAll()
+>>>>>>> 0e6be7f39ab43ff09865e85f30ef9d3970fa1793
         {
             SqlConnection sqlConnection = GetConnection();
             SqlCommand comm = null;
@@ -93,8 +118,12 @@ namespace ApiRest.Repo
                 comm = sqlConnection.CreateCommand();
                 comm.CommandText = "dbo.GetProducts";
                 comm.CommandType = CommandType.StoredProcedure;
+<<<<<<< HEAD
+                SqlDataReader reader = await comm.ExecuteReaderAsync(); //Read queries
+=======
                 SqlDataReader reader = await comm.ExecuteReaderAsync();
 
+>>>>>>> 0e6be7f39ab43ff09865e85f30ef9d3970fa1793
 
                 while (reader.Read())
                 {
@@ -121,7 +150,11 @@ namespace ApiRest.Repo
             return products;
         }
 
+<<<<<<< HEAD
+        public async Task<Product> GetById(string code) //Agregar Task<MODEL>
+=======
         public async Task<Product> GetById(string code)
+>>>>>>> 0e6be7f39ab43ff09865e85f30ef9d3970fa1793
         {
             SqlConnection sqlConnection = GetConnection();
             SqlCommand comm = null;
@@ -133,8 +166,13 @@ namespace ApiRest.Repo
                 comm = sqlConnection.CreateCommand();
                 comm.CommandText = "dbo.GetProducts";
                 comm.CommandType = CommandType.StoredProcedure;
+<<<<<<< HEAD
+                comm.Parameters.Add("@sku", SqlDbType.VarChar, 50).Value = code;
+                SqlDataReader reader = await comm.ExecuteReaderAsync(); //Read queries, async await
+=======
                 comm.Parameters.Add("@sku", SqlDbType.VarChar, 500).Value = code;
                 SqlDataReader reader = await comm.ExecuteReaderAsync(); //Read queries
+>>>>>>> 0e6be7f39ab43ff09865e85f30ef9d3970fa1793
                 
                 if (reader.Read())
                 {
@@ -160,7 +198,11 @@ namespace ApiRest.Repo
             return p;
         }
 
+<<<<<<< HEAD
+        public async Task ModifyProduct(Product p)
+=======
         public async Task UpdateProduct(Product p)
+>>>>>>> 0e6be7f39ab43ff09865e85f30ef9d3970fa1793
         {
             SqlConnection sqlConnection = GetConnection();
             SqlCommand comm = null;
@@ -187,7 +229,11 @@ namespace ApiRest.Repo
                 sqlConnection.Close();
                 sqlConnection.Dispose();
             }
+<<<<<<< HEAD
+            await Task.CompletedTask; //No devuelve valor al finalizar la tarea
+=======
             await Task.CompletedTask;
+>>>>>>> 0e6be7f39ab43ff09865e85f30ef9d3970fa1793
         }
     }
 }

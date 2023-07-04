@@ -26,7 +26,12 @@ namespace ApiRest
             services.AddSingleton<IMemoryProduct, SqlProducts>(); //Dependency Injection Db
             // services.AddSingleton<IMemoryProduct, MemoryProduct>(); //Dependency Injection Linq
 
+<<<<<<< HEAD
+            //services.AddControllers(options => { options.SuppressAsyncSuffixInActionNames=false})//parara evitar problemas(?
+            services.AddControllers();
+=======
             services.AddControllers(options => options.SuppressAsyncSuffixInActionNames = false); //options => options.SuppressAsyncSuffixInActionNames = false por si da problemas con postman
+>>>>>>> 0e6be7f39ab43ff09865e85f30ef9d3970fa1793
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "ApiRest", Version = "v1" });
