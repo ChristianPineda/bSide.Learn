@@ -5,6 +5,13 @@ build_property.UsingMicrosoftNETSdkWeb = true
 build_property.ProjectTypeGuids = 
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
+<<<<<<< HEAD
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ApiRest
+build_property.ProjectDir = C:\Users\cpineda\source\repos\bSide.Learn\Asp.DotNet\ApiRest\ApiRest\
+=======
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = ApiRest
 build_property.ProjectDir = C:\Users\robot\source\repos\bSide.Learn\Asp.DotNet\ApiRest\ApiRest\
+>>>>>>> c0a04deb1cf0ad73e3a3ce52a01d17941d56c3c0
